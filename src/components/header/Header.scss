@@ -1,3 +1,5 @@
+@import "../../constants/variables.scss";
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -16,16 +18,16 @@
   }
 
   .explore-button {
-    color: #F88316 !important;
+    color: $color-primary !important;
   }
 
   .register-button {
-    background-color: #F88316 !important;
+    background-color: $color-primary !important;
     color: white !important;
   }
 
   .register-button:hover {
-    background-color: #e87000 !important;
+    background-color: $color-primary-dark !important;
   }
 
   .header-username-container {
