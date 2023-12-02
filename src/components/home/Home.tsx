@@ -1,12 +1,5 @@
-import { Search, SentimentDissatisfied } from "@mui/icons-material";
-import {
-  Box,
-  CircularProgress,
-  Grid,
-  InputAdornment,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Search } from "@mui/icons-material";
+import { Box, Grid, InputAdornment, TextField } from "@mui/material";
 import Header from "../header/Header";
 
 import "./Home.scss";
