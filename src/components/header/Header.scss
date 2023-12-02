@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 5vh;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+
+  .header-title {
+    cursor: pointer;
+  }
+
+  .username-text {
+    display: none;
+  }
+
+  .explore-button {
+    color: #F88316 !important;
+  }
+
+  .register-button {
+    background-color: #F88316 !important;
+    color: white !important;
+  }
+
+  .register-button:hover {
+    background-color: #e87000 !important;
+  }
+
+  .header-username-container {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .username-text {
+    display: block;
+  }
+}
