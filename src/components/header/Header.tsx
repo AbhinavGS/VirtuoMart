@@ -14,7 +14,7 @@ const Header = ({ hasHiddenAuthButtons, showUserDetails }: any) => {
   return (
     <Box className="header">
       <Box className="header-title">
-        <img src="VirtuoMart_logo.png" alt="VirtuoMart-icon" width={80}></img>
+        <img src="virtuo-mart_logo.png" alt="VirtuoMart-icon" width={80}></img>
       </Box>
       <TextField
         style={{ marginLeft: "25%", marginRight: "25%" }}

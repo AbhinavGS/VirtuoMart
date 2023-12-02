@@ -4,6 +4,7 @@ import Header from "../header/Header";
 
 import "./Home.scss";
 import ProductCard from "../product-card/ProductCard";
+import Footer from "../footer/Footer";
 
 export default function Home() {
   let isLoggedIn = false;
@@ -173,6 +174,7 @@ export default function Home() {
           </Grid>
         </Grid>
       </Grid>
+      <Footer />
     </div>
   );
 }
