@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/home/Home.tsx";
 import Login from "./components/login/Login.tsx";
 import Register from "./components/register/Register.tsx";
+import Checkout from "./components/checkout/checkout.tsx";
 import { Provider } from "react-redux";
 import store from "./store.ts";
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register />,
+  },
+  {
+    path: "/checkout",
+    element: <Checkout />,
   },
 ]);
 
