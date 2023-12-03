@@ -9,6 +9,7 @@ import { Provider } from "react-redux";
 import store from "./store.ts";
 
 import "./index.css";
+import PostPurchase from "./components/post-purchase/postPurchase.tsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/checkout",
     element: <Checkout />,
+  },
+  {
+    path: "/post-purchase",
+    element: <PostPurchase />,
   },
 ]);
 
